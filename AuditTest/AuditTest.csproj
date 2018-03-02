@@ -60,6 +60,14 @@
     <Compile Include="Migrations\201803021126325_InitialMigration.Designer.cs">
       <DependentUpon>201803021126325_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201803021940048_ChangedPerson.cs" />
+    <Compile Include="Migrations\201803021940048_ChangedPerson.Designer.cs">
+      <DependentUpon>201803021940048_ChangedPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201803021941167_ChangedPersonagain.cs" />
+    <Compile Include="Migrations\201803021941167_ChangedPersonagain.Designer.cs">
+      <DependentUpon>201803021941167_ChangedPersonagain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +79,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201803021126325_InitialMigration.resx">
       <DependentUpon>201803021126325_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803021940048_ChangedPerson.resx">
+      <DependentUpon>201803021940048_ChangedPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201803021941167_ChangedPersonagain.resx">
+      <DependentUpon>201803021941167_ChangedPersonagain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
